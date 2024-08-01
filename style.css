@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding-top:20px
+}
+
+header{
+    height:500px ; /*высота блока*/
+    background-color: chocolate; /*цвет фона*/
+    color: rgb(234, 17, 17);
+    text-align: center;
+    font-size:30px ;
+    background-image:url(https://static.wikia.nocookie.net/brawlstars/images/4/4e/%D0%A0%D0%B8%D0%BA%D0%BE_Skin-Default.png/revision/latest?cb=20200814141244&path-prefix=ru) ;
+    background-size:36%;
+    background-position: top;
+    background-repeat:no-repeat;
+
+    text-shadow:50px 50px 55px #060000;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    background-color: rgb(133, 255, 72);
+    color: #dd1717;/*подвал сайта*/
+    text-align: left;
+
+    font-size:52px;
+    padding: 10px;
+    display: flex
+}
+
+    .left{
+        width: 50%;
+        font-size: 50%;
+        text-align: justify;
+    }
+
+    .right{
+        width: 50%;
+        text-align: center;
+    }
+
+footer{
+    background-color: rgba(255, 0, 0, 0.665);
+    color: #dd1717;
+    text-align:center;
+    height:300px;
+    font-size:60px ;
+    padding-top: 20px;
+}
+
+.social img{
+    width: 100px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
